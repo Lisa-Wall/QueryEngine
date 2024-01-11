@@ -1,9 +1,9 @@
 # QueryEngine
-HotSite bug fix and dll patch
+Query engine bug fix and dll patch
 
 This is the achievment I'm most proud of while working at Cognos. 
 
-There was a bug somewhere deep in the bowles of the query engine. The query engine was a collection of functions written in C++ which took in SQL queries and transformed them into their final forms. Somewhere along the way, certain types of requests were producing mal-formed queries, which of course returned incorrect data from the database. This was a pressing issue because some clients were reluctant to upgrade the software, yet they were experiencing this issue. They needed a targeted fix involving just a few dlls.
+There was a bug somewhere deep in the query engine. The query engine was a collection of functions written in C++ which took in SQL queries and transformed them into their final forms. Somewhere along the way, certain types of requests were producing mal-formed queries, which of course returned incorrect data from the database. This was a pressing issue because some clients were reluctant to upgrade the software, yet they were experiencing this issue. They needed a targeted fix involving just a few dlls, so it was escalated to a "HotSite" and assigned to me.
 
 Finally, I decided enough was enough, and I came in on a weekend, 2 days straight for a total of 21 hours, until I FIXED THE BUG!!!!! I remember the exhileration of it, the sheer extacy when I found the problem. Of course there was no one else in the office, so the moment I figured it out I remember jumping up and yelling and dancing among the cubicles. Ah, what a wonderful time!
 
